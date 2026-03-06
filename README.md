@@ -34,17 +34,11 @@
 
 ## 📸 Preview
 
-<div align="center">
-  <img src="/images/home.png" alt="Home Page" width="100%">
-</div>
-
-<div align="center">
-  <img src="/images/products.png" alt="Products Page" width="100%">
-</div>
-
-<div align="center">
-  <img src="/images/cart.png" alt="Shopping Cart" width="100%">
-</div>
+| Page | Image |
+|------|-------|
+| Home | ![Home](images/home.png) |
+| Products | ![Products](images/products.png) |
+| Cart | ![Cart](images/cart.png) |
 
 ## 🛠️ Getting Started
 
@@ -89,10 +83,6 @@ Open [http://localhost:3000](http://localhost:3000) to view the store.
 │   │   └── page.tsx       # Home page
 │   ├── components/
 │   │   └── store/         # Store components
-│   │       ├── Header.tsx
-│   │       ├── Footer.tsx
-│   │       ├── Hero.tsx
-│   │       └── ProductCard.tsx
 │   └── lib/
 │       ├── prisma.ts      # Prisma client
 │       ├── store.ts       # Zustand cart store
@@ -185,10 +175,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 <p align="center">
   Built with ❤️ by <a href="https://github.com/nguyenduchuynet">Huy Nguyen</a>
-</p>
-
-<p align="center">
-  <a href="https://twitter.com/intent/tweet?text=Check+out+this+amazing+E-commerce+Platform!&url=https://github.com/nguyenduchuynet/ecommerce-platform">
-    <img src="https://img.shields.io/badge/Tweet-Share-1DA1F2?style=for-the-badge&logo=twitter" alt="Tweet">
-  </a>
 </p>
