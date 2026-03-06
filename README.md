@@ -35,11 +35,15 @@
 ## 📸 Preview
 
 <div align="center">
-  <img src="https://placehold.co/1200x600/1e293b/indigo?text=ShopHub+Landing+Page" alt="Landing Page" width="100%">
+  <img src="/images/home.png" alt="Home Page" width="100%">
 </div>
 
 <div align="center">
-  <img src="https://placehold.co/1200x600/1e293b/purple?text=Product+Catalog" alt="Products" width="100%">
+  <img src="/images/products.png" alt="Products Page" width="100%">
+</div>
+
+<div align="center">
+  <img src="/images/cart.png" alt="Shopping Cart" width="100%">
 </div>
 
 ## 🛠️ Getting Started
@@ -53,7 +57,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/ecommerce-platform.git
+git clone https://github.com/nguyenduchuynet/ecommerce-platform.git
 cd ecommerce-platform
 
 # Install dependencies
@@ -80,6 +84,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the store.
 │   ├── app/
 │   │   ├── api/           # API endpoints
 │   │   ├── cart/          # Shopping cart page
+│   │   ├── products/      # Products page
 │   │   ├── layout.tsx     # Root layout
 │   │   └── page.tsx       # Home page
 │   ├── components/
@@ -92,6 +97,8 @@ Open [http://localhost:3000](http://localhost:3000) to view the store.
 │       ├── prisma.ts      # Prisma client
 │       ├── store.ts       # Zustand cart store
 │       └── utils.ts       # Utility functions
+├── public/
+│   └── images/            # Preview images
 ├── .env.example
 ├── package.json
 └── README.md
@@ -181,7 +188,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/intent/tweet?text=Check+out+this+amazing+E-commerce+Platform!&url=https://github.com/your-username/ecommerce-platform">
+  <a href="https://twitter.com/intent/tweet?text=Check+out+this+amazing+E-commerce+Platform!&url=https://github.com/nguyenduchuynet/ecommerce-platform">
     <img src="https://img.shields.io/badge/Tweet-Share-1DA1F2?style=for-the-badge&logo=twitter" alt="Tweet">
   </a>
 </p>
